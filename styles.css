@@ -1,0 +1,112 @@
+main {
+  background-image: url("./assets/13.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+.heading {
+  position: relative;
+  top: 170px;
+  left: 50px;
+}
+
+.heading>h1 {
+  font-size: 60px;
+  color: #2B3035;
+}
+
+.heading>h1>span {
+  color: green;
+}
+
+#trynow {
+  position: relative;
+  bottom: 6px;
+}
+
+/* Restrict horizontal scrolling */
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* Optional: Ensure footer links don't overflow */
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #2B3035;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .footer-content div {
+  margin-bottom: 15px;
+}
+
+footer .footer-content h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+footer .footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-content ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer-content ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: .8rem;
+}
+
+footer .footer-content ul li a:hover {
+  color: #ddd;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer .social-icons a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #6a11cb;
+}
